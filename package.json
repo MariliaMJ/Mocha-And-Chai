@@ -1,0 +1,33 @@
+{
+  "name": "mocha-and-chai",
+  "version": "1.0.0",
+  "description": "Further studies o the use of mocha and chai for unitary testing.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+   "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariliaMJ/Mocha-And-Chai.git"
+  },
+  "author": "marilia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariliaMJ/Mocha-And-Chai/issues"
+  },
+  "homepage": "https://github.com/MariliaMJ/Mocha-And-Chai#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "config": "^1.26.2",
+    "express": "^4.15.5",
+    "mocha": "^3.5.3",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.9.0"
+  }
+}
